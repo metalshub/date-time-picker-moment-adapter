@@ -1,7 +1,7 @@
 {
-  "name": "@danielmoncada/angular-datetime-picker-moment-adapter",
+  "name": "@fabianrios/angular-datetime-picker-moment-adapter",
   "version": "4.0.0",
-  "description": "Angular Date Time Picker (MomentJs Adpater)",
+  "description": "Angular Date Time Picker (MomentJs Adpater) with calendar weeks",
   "keywords": [
     "Angular",
     "datepicker",
@@ -15,7 +15,7 @@
     "moment",
     "momentjs"
   ],
-  "author": "Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan",
+  "author": "Maintained and updated by Fabián Ríos on Daniel Moncada fork from original implementatiom by Daniel Pan",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -35,6 +35,6 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@danielmoncada/angular-datetime-picker": "^17.0.0"
+    "@fabianrios/angular-datetime-picker": "^17.0.0"
   }
 }
