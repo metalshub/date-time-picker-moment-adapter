@@ -20,16 +20,17 @@ Description
 This is a MomentJs adapter to be used with the following date time picker control:
 
 https://github.com/danielmoncada/date-time-picker
+https://github.com/metalshub/date-time-picker
 
 How to Use
 -------
 
- 1. Install with [npm](https://www.npmjs.com):`npm install @danielmoncada/angular-datetime-picker-moment-adapter --save`
+ 1. Install with [npm](https://www.npmjs.com):`npm install @metalshub/angular-datetime-picker-moment-adapter --save`
  2. 
     ```typescript
     import { NgModule } from '@angular/core';
-    import { OwlDateTimeModule, OWL_DATE_TIME_FORMATS} from '@danielmoncada/angular-datetime-picker;
-    import { OwlMomentDateTimeModule } from '@danielmoncada/angular-datetime-picker-moment-adapter';
+    import { OwlDateTimeModule, OWL_DATE_TIME_FORMATS} from '@metalshub/angular-datetime-picker;
+    import { OwlMomentDateTimeModule } from '@metalshub/angular-datetime-picker-moment-adapter';
 
     // See the Moment.js docs for the meaning of these formats:
     // https://momentjs.com/docs/#/displaying/format/
@@ -56,7 +57,7 @@ How to Use
 Dependencies
 -------
 - moment
-- @danielmoncada/angular-datetime-picker
+- @metalshub/angular-datetime-picker
 - tslib
 
 Demo
@@ -70,4 +71,4 @@ License
 
 Author
 -------
-**Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan**
+**Previously maintained and updated by Daniel Moncada, original implementation by Daniel Pan**
