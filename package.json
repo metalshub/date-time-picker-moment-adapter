@@ -1,6 +1,6 @@
 {
-  "name": "@danielmoncada/angular-datetime-picker-moment-adapter",
-  "version": "6.0.0",
+  "name": "@metalshub/angular-datetime-picker-moment-adapter",
+  "version": "6.1.0",
   "description": "Angular Date Time Picker (MomentJs Adapter)",
   "keywords": [
     "Angular",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielmoncada/date-time-picker-moment-adapter.git"
+    "url": "https://github.com/metalshub/date-time-picker-moment-adapter.git"
   },
   "dependencies": {
     "@angular/animations": "^19.0.5",
@@ -56,7 +56,7 @@
     "@angular/cli": "^19.0.6",
     "@angular/compiler-cli": "^19.0.5",
     "@angular/language-service": "^19.0.5",
-    "@danielmoncada/angular-datetime-picker": "^19.0.0",
+    "@metalshub/angular-datetime-picker": "^19.0.0",
     "@types/jasmine": "^5.1.5",
     "@types/jasminewd2": "^2.0.13",
     "@types/node": "^22.10.2",

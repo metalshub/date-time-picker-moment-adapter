@@ -9,7 +9,7 @@ import {
   OWL_DATE_TIME_LOCALE,
   OwlDateTimeModule,
   OwlNativeDateTimeModule,
-} from '@danielmoncada/angular-datetime-picker';
+} from '@metalshub/angular-datetime-picker';
 import { bootstrapApplication, BrowserModule } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';

@@ -4,7 +4,7 @@
 
 import { Inject, Injectable, InjectionToken, Optional } from '@angular/core';
 import _moment, { Moment } from 'moment';
-import { DateTimeAdapter, OWL_DATE_TIME_LOCALE } from '@danielmoncada/angular-datetime-picker';
+import { DateTimeAdapter, OWL_DATE_TIME_LOCALE } from '@metalshub/angular-datetime-picker';
 
 const moment = (_moment as unknown)['default'] ? (_moment as unknown)['default'] : _moment;
 

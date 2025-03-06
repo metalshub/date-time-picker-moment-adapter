@@ -1,7 +1,7 @@
 /**
  * moment-date-time-format.class
  */
-import { OwlDateTimeFormats } from '@danielmoncada/angular-datetime-picker';
+import { OwlDateTimeFormats } from '@metalshub/angular-datetime-picker';
 
 export const OWL_MOMENT_DATE_TIME_FORMATS: OwlDateTimeFormats = {
   parseInput: 'l LT',

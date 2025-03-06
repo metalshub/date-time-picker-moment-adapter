@@ -8,9 +8,7 @@
 ** This package supports Angular 19 **
 
 Breaking Changes
-
----
-
+-------
 - Version 6.x.x >= no longer supports ng 18. If you need ng 18 support, stick with version 5.x.x.
 - Version 5.x.x >= no longer supports ng 17. If you need ng 17 support, stick with version 4.x.x.
 - Version 4.x.x >= no longer supports ng 16 - 13. If you need ng 16-13 support, stick with version 3.x.x.
@@ -21,16 +19,16 @@ Breaking Changes
 This is a MomentJs adapter to be used with the following date time picker control:
 
 https://github.com/danielmoncada/date-time-picker
+https://github.com/metalshub/date-time-picker
 
 ## How to Use
 
-1. Install with [npm](https://www.npmjs.com):`npm install @danielmoncada/angular-datetime-picker-moment-adapter --save`
-2.
-
+ 1. Install with [npm](https://www.npmjs.com):`npm install @metalshub/angular-datetime-picker-moment-adapter --save`
+ 2.
 ```typescript
 import { NgModule } from '@angular/core';
-import { OwlDateTimeModule, OWL_DATE_TIME_FORMATS } from '@danielmoncada/angular-datetime-picker';
-import { OwlMomentDateTimeModule } from '@danielmoncada/angular-datetime-picker-moment-adapter';
+import { OwlDateTimeModule, OWL_DATE_TIME_FORMATS } from '@metalshub/angular-datetime-picker';
+import { OwlMomentDateTimeModule } from '@metalshub/angular-datetime-picker-moment-adapter';
 
 // See the Moment.js docs for the meaning of these formats:
 // https://momentjs.com/docs/#/displaying/format/
@@ -55,7 +53,7 @@ export class AppExampleModule {
 ## Dependencies
 
 - moment
-- @danielmoncada/angular-datetime-picker
+- @metalshub/angular-datetime-picker
 - tslib
 
 ## Demo
@@ -69,4 +67,6 @@ export class AppExampleModule {
 
 ## Author
 
-**Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan**
+Author
+-------
+**Previously maintained and updated by Daniel Moncada, original implementation by Daniel Pan**

@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import moment from 'moment-timezone';
 
-import { OwlDateTimeComponent, OwlDateTimeModule } from '@danielmoncada/angular-datetime-picker';
+import { OwlDateTimeComponent, OwlDateTimeModule } from '@metalshub/angular-datetime-picker';
 import { FormsModule } from '@angular/forms';
 import { Moment } from 'moment';
 import { JsonPipe } from '@angular/common';

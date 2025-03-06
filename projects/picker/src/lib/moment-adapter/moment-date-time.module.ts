@@ -5,7 +5,7 @@
 import { NgModule } from '@angular/core';
 import { MomentDateTimeAdapter, OWL_MOMENT_DATE_TIME_ADAPTER_OPTIONS } from './moment-date-time-adapter.class';
 import { OWL_MOMENT_DATE_TIME_FORMATS } from './moment-date-time-format.class';
-import { DateTimeAdapter, OWL_DATE_TIME_FORMATS, OWL_DATE_TIME_LOCALE } from '@danielmoncada/angular-datetime-picker';
+import { DateTimeAdapter, OWL_DATE_TIME_FORMATS, OWL_DATE_TIME_LOCALE } from '@metalshub/angular-datetime-picker';
 
 @NgModule({
   providers: [
