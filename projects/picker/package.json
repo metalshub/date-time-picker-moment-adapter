@@ -1,6 +1,6 @@
 {
   "name": "@metalshub/angular-datetime-picker-moment-adapter",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "Angular Date Time Picker (MomentJs Adapter)",
   "keywords": [
     "Angular",
@@ -26,13 +26,13 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/core": "^20.0.0",
+    "@angular/core": "^21.0.0",
     "moment": "^2.29.4"
   },
   "dependencies": {
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@metalshub/angular-datetime-picker": "^20.0.0"
+    "@metalshub/angular-datetime-picker": "^21.0.0"
   }
 }
